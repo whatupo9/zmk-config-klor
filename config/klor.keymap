@@ -23,7 +23,7 @@
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
-      #binding-cells = < 2>;
+      #binding-cells = <2>;
       tapping-term-ms = <300>;
       quick_tap_ms = <300>;
       flavor = "tap-preferred";
@@ -34,7 +34,7 @@
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
-      #binding-cells = < 2>;
+      #binding-cells = <2>;
       tapping-term-ms = <350>;
       quick_tap_ms = <300>;
       flavor = "tap-preferred";
@@ -45,7 +45,7 @@
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
-      #binding-cells = < 2>;
+      #binding-cells = <2>;
       tapping-term-ms = <400>;
       quick_tap_ms = <300>;
       flavor = "tap-preferred";
@@ -72,7 +72,7 @@ keymap
     label = "BASE";
     bindings = <
                   &kp Q             &kp W           &kp E               &kp R             &kp T                           &kp Y         &kp U             &kp I               &kp O           &kp P
-        &kp TAB   &hrm_slow A LMETA &hrm_med S LALT &hrm_fast D LSHIFT  &hrm_fast F LCTRL &kp G                           &kp H         &hrm_fast J RCTRL &hrm_fast K RSHIFT  &hrm_med L RALT &hrm_slow SEMI RMETA  &kp RET
+        &kp TAB   &hrm_slow LMETA A &hrm_med LALT S &hrm_fast LSHIFT  D &hrm_fast LCTRL F &kp G                           &kp H         &hrm_fast RCTRL J &hrm_fast RSHIFT  K &hrm_med RALT L &hrm_slow RMETA SEMI  &kp RET
         &kp ESC   &kp Z             &kp X           &kp C               &kp V             &kp B     &kp C_MUTE  &trans    &kp N         &kp M             &kp COMMA           &kp DOT         &kp FSLH              &kp LMETA
                                                     &mo NUMBERS         &kp BSPC          &kp DEL   NC          NC        &mo FUNCTION  &kp SPACE         &mo SYMBOLS
       >;
@@ -126,7 +126,7 @@ keymap
     label = "ETRAINED";
     bindings = <
                   &kp Q     &kp W     &kp E               &kp R             &kp T                           &kp Y     &kp U     &kp I               &kp O     &kp P
-        &kp TAB   &kp A     &kp S     &hrm_fast D LSHIFT  &hrm_fast F LCTRL &kp G                           &kp H     &kp J     &hrm_fast K RSHIFT  &kp L     &kp SEMI  &kp RET
+        &kp TAB   &kp A     &kp S     &hrm_fast LSHIFT D  &hrm_fast LCTRL F &kp G                           &kp H     &kp J     &hrm_fast RSHIFT  K &kp L     &kp SEMI  &kp RET
         &kp ESC   &kp Z     &kp X     &kp C               &kp V             &kp B     &kp C_MUTE  &trans    &kp N     &kp M     &kp COMMA           &kp DOT   &kp FSLH  &kp LMETA
                                       &trans              &trans            &trans    NC          NC        &trans    &trans    &trans
       >;
@@ -138,7 +138,7 @@ keymap
     label = "MONKEY";
     bindings = <
                   &kp Q     &kp W     &kp E       &kp R             &kp T                           &kp Y     &kp U     &kp I       &kp O     &kp P
-        &kp TAB   &kp A     &kp S     &kp D       &hrm_fast F LCTRL &kp G                           &kp H     &kp J     &kp K       &kp L     &kp SEMI  &kp RET
+        &kp TAB   &kp A     &kp S     &kp D       &hrm_fast LCTRL F &kp G                           &kp H     &kp J     &kp K       &kp L     &kp SEMI  &kp RET
         &kp ESC   &kp Z     &kp X     &kp C       &kp V             &kp B     &kp C_MUTE  &trans    &kp N     &kp M     &kp COMMA   &kp DOT   &kp FSLH  &kp LMETA
                                       &trans      &trans            &trans    NC          NC        &trans    &trans    &trans
       >;
