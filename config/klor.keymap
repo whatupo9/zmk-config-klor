@@ -162,7 +162,7 @@ keymap
     label = "STENO";
     bindings = <
                   &kp Q     &kp W     &kp E       &kp R     &kp T                           &kp Y     &kp U     &kp I       &kp O     &kp P
-        &kp TAB   &kp A     &kp S     &kp D       &hrm_f    &kp G                           &kp H     &kp J     &kp K       &kp L     &kp SEMI  &kp RET
+        &kp TAB   &kp A     &kp S     &kp D       &kp F     &kp G                           &kp H     &kp J     &kp K       &kp L     &kp SEMI  &kp RET
         &kp ESC   &kp Z     &kp X     &kp C       &kp V     &kp B     &kp C_MUTE  &trans    &kp N     &kp M     &kp COMMA   &kp DOT   &kp FSLH  &kp LMETA
                                       &mo NUMBERS &kp BSPC  &trans    NC          NC        &trans    &kp SPACE &mo SYMBOLS
       >;
