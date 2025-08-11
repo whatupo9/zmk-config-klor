@@ -19,7 +19,7 @@
 /{
   behaviors
   {
-    hm_a: homerow_mods
+    hm_a: homerow_mods_a
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
@@ -30,7 +30,7 @@
       bindings = <&kp A>, <&kp LMETA>;
     };
 
-    hm_s: homerow_mods
+    hm_s: homerow_mods_s
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
@@ -41,7 +41,7 @@
       bindings = <&kp S>, <&kp LALT>;
     };
 
-    hm_d: homerow_mods
+    hm_d: homerow_mods_d
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
@@ -52,7 +52,7 @@
       bindings = <&kp D>, <&kp LSHIFT>;
     };
 
-    hm_f: homerow_mods
+    hm_f: homerow_mods_f
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
@@ -63,7 +63,7 @@
       bindings = <&kp F>, <&kp LCTRL>;
     };
 
-    hm_j: homerow_mods
+    hm_j: homerow_mods_j
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
@@ -74,7 +74,7 @@
       bindings = <&kp J>, <&kp RCTRL>;
     };
 
-    hm_k: homerow_mods
+    hm_k: homerow_mods_k
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
@@ -85,7 +85,7 @@
       bindings = <&kp K>, <&kp RSHIFT>;
     };
 
-    hm_l: homerow_mods
+    hm_l: homerow_mods_l
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
@@ -96,7 +96,7 @@
       bindings = <&kp L>, <&kp RALT>;
     };
 
-    hm_semi: homerow_mods
+    hm_semi: homerow_mods_semi
     {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
