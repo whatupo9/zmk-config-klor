@@ -71,10 +71,10 @@ keymap
   {
     label = "BASE";
     bindings = <
-                  &kp Q             &kp W           &kp E               &kp R             &kp T                           &kp Y     &kp U             &kp I               &kp O           &kp P
-        &kp TAB   &hrm_slow A LMETA &hrm_med S LALT &hrm_fast D LSHIFT  &hrm_fast F LCTRL &kp G                           &kp H     &hrm_fast J RCTRL &hrm_fast K RSHIFT  &hrm_med L RALT &hrm_slow SEMI RMETA  &kp RET
-        &kp ESC   &kp Z             &kp X           &kp C               &kp V             &kp B     &kp C_MUTE  &trans    &kp N     &kp M             &kp COMMA           &kp DOT         &kp FSLH              &kp LMETA
-                                                    &mo NUMBERS         &kp BSPC          &kp DEL   NC          NC        &trans    &kp SPACE         &mo SYMBOLS
+                  &kp Q             &kp W           &kp E               &kp R             &kp T                           &kp Y         &kp U             &kp I               &kp O           &kp P
+        &kp TAB   &hrm_slow A LMETA &hrm_med S LALT &hrm_fast D LSHIFT  &hrm_fast F LCTRL &kp G                           &kp H         &hrm_fast J RCTRL &hrm_fast K RSHIFT  &hrm_med L RALT &hrm_slow SEMI RMETA  &kp RET
+        &kp ESC   &kp Z             &kp X           &kp C               &kp V             &kp B     &kp C_MUTE  &trans    &kp N         &kp M             &kp COMMA           &kp DOT         &kp FSLH              &kp LMETA
+                                                    &mo NUMBERS         &kp BSPC          &kp DEL   NC          NC        &mo FUNCTION  &kp SPACE         &mo SYMBOLS
       >;
     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
   };
@@ -116,7 +116,7 @@ keymap
   {
     label = "FUNCTION";
     bindings = <
-        &bt BT_CLR &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR &trans &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans &bt BT_NXT &trans &trans &trans &bt BT_PRV &trans &trans &kp KP_N6 &trans &trans &trans &bt BT_PRV &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        &bt _CLR &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR &trans &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans &bt BT_NXT &trans &trans &trans &bt BT_PRV &trans &trans &kp KP_N6 &trans &trans &trans &bt BT_PRV &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
       >;
     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
   };
