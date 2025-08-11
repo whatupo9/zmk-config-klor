@@ -129,7 +129,7 @@ keymap
                   &kp Q     &kp W     &kp E       &kp R     &kp T                           &kp Y     &kp U     &kp I       &kp O     &kp P
         &kp TAB   &hrm_a    &hrm_s    &hrm_d      &hrm_f    &kp G                           &kp H     &hrm_j    &hrm_k      &hrm_l    &hrm_semi &kp RET
         &kp ESC   &kp Z     &kp X     &kp C       &kp V     &kp B     &kp C_MUTE  &trans    &kp N     &kp M     &kp COMMA   &kp DOT   &kp FSLH  &kp LMETA
-                                      &mo NUMBERS &kp BSPC  &trans    NC          NC        &trans    &kp SPACE &mo SYMBOLS
+                                      &mo NUMBERS &kp BSPC  &kp DEL   NC          NC        &trans    &kp SPACE &mo SYMBOLS
       >;
     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
   };
@@ -159,7 +159,7 @@ keymap
     bindings = <
                     &kp N1      &kp N2      &kp N3           &kp N4          &kp N5                     &kp N6     &kp N7     &kp N8   &kp N9      &kp N0
           &trans    &kp CARET   &kp AT      &kp DOLLAR       &kp PRCNT       &trans                     &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &trans   &trans
-          &trans    &trans      &kp K_MUTE  &kp K_VOL_DOWN   &kp K_VOL_UP    &trans   &trans   &trans   &trans     &trans     &trans   &trans      &trans   &trans
+          &trans    &trans      &kp K_MUTE  &kp K_VOL_DN   &kp K_VOL_UP    &trans   &trans   &trans   &trans     &trans     &trans   &trans      &trans   &trans
                                             &trans           &trans          &trans   NC       NC       &trans     &trans     &trans  
 
         //&trans &trans &trans &trans &trans &trans &trans &kp RA(U) &trans &trans &kp RA(A) &trans &kp RA(S) &trans &trans &trans &trans &trans &trans &trans &kp RA(O) &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &mo ADJUST &trans &trans &trans &trans &trans &trans &trans
